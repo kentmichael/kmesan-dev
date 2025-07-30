@@ -1,4 +1,5 @@
 // import HumburgerMenu from "./components/humburger_menu";
+import ContactInfo from "./components/contact_info";
 
 export default function Home() {
   return (
@@ -12,7 +13,9 @@ export default function Home() {
             Full Stack <span className="text-[#3ad353]">Developer</span>
           </p>
         </div>
-        <hr />
+        <hr className="text-gray-500 opacity-50" />
+        <ContactInfo />
+        <hr className="text-gray-500 opacity-50" />
       </main>
     </>
   );
