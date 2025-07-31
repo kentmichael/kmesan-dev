@@ -1,5 +1,6 @@
 // import HumburgerMenu from "./components/humburger_menu";
 import ContactInfo from "./components/contact_info";
+import MyProjects from "./components/my_projects";
 
 export default function Home() {
   return (
@@ -15,6 +16,8 @@ export default function Home() {
         </div>
         <hr className="text-gray-500 opacity-50" />
         <ContactInfo />
+        <hr className="text-gray-500 opacity-50" />
+        <MyProjects />
         <hr className="text-gray-500 opacity-50" />
       </main>
     </>
